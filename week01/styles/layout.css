@@ -1,0 +1,80 @@
+/*Website outline*/
+body 
+{
+    display: grid;
+    height: 100vh;
+    grid-template: auto auto 1fr auto / 1fr 1fr;
+}
+
+/*header*/
+header 
+{
+    background-color:darkgray;
+    color: white;
+    padding: 2rem;
+    grid-column: 1 / 4;
+}
+
+nav
+{
+    grid-column: 1 / 4; 
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;  
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+li a:hover
+{
+    background-color: #111;
+}
+
+/*main*/
+.left-sidebar 
+{
+    background: lightblue;
+    grid-column: 1 / 2;
+}
+  
+.right-sidebar 
+{
+    background: yellow;
+    grid-column: 2 / 3;
+}
+
+.left-sidebar, .right-sidebar
+{
+    padding: 1rem;
+}
+
+/*footer*/
+footer 
+{
+    background: darkgray;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    grid-column: 1 / 4;
+}
+  
+ 
