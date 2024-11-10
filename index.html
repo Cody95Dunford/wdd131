@@ -7,23 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta description="This is my home page">
     <meta author="Cody Dunford">
+    <script src="scripts/getdate.js"></script>
 </head>
-<body>
+<body onload="latestUpdate()">
     <header>
         <h1>WDD 131: Dynamic Web Fundamentals - Cody Dunford</h1>
         <nav>
             <ul>
                 <li><a href="https://www.linkedin.com/in/cody-dunford-79ba82202/">LinkedIn</a></li>
                 <li><a href="https://byui.instructure.com/">I-Learn</a></li>
-                <li><a href="#">Scriptures</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/19?lang=eng#:~:text=23%20Learn%20of%20me%2C%20and%20listen%20to%20my%20words%3B%20walk%20in%20the%20meekness%20of%20my%20Spirit%2C%20and%20you%20shall%20have%20peace%20in%20me.">Scriptures</a></li>
                 <li><a href="#">Final Project</a></li>
             </ul>
         </nav>            
     </header>
     <main>
-        <div class="card">Left Sidebar</div>
-        <div class="card">Right Sidebar</div>
+        <section class="card">
+            <h2>This is Me<br></h2>
+            <p class="introduction">Hello, my name is Cody. I was born in Ogden, 
+                Utah. I currently live in Huntsville, Alabama. I am the middle 
+                of 5 kids. I also have 5 nephews and 4 nieces. I work as a shift 
+                lead at my local Airport. I was recently married to the love of my 
+                life this past summer. When I am not working or doining school, I 
+                love to watch sports. I especially love basketball and football.
+            </p>
+            <img src="images/sunglasses.JPG" class="selfie">
+        </section>
+        <section class="card">
+            <h2>Web Dev Resources</h2>
+            <div class="references">
+                <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+                <a href="https://coolors.co/" target="_blank">Coolors.co</a>
+                <a href=""></a>
+            </div>
+        </section>
     </main>
-    <footer>Footer Content</footer>
+    <footer>
+        <p>&copy;2024 ~ Cody Dunford ~ Alabama</p>
+        <p id="update"></p>
+    </footer>
 </body>
 </html>
