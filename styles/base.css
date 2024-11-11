@@ -6,14 +6,29 @@
     --secondary-color:  #FDFFFC;
     --third-color: #C41E3A;
 
-    /*this is the typogoly scheme*/
-
+    
+    --header-typography: "Merriweather", serif, 300, normal;
 }
 
 /*website outline*/
 body 
 {
     margin: 0;
+}
+
+/*this is the typogoly scheme*/
+h1, h2, h3
+{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+p
+{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /*header*/
