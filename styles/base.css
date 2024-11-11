@@ -87,30 +87,28 @@ h2
 }
 
 /*introduction card*/
-/*myself section*/
-.introduce-me
+.card-grid
 {
-    height: 50%;
+    display: inline-flex;
 }
 
+/*myself section*/
 .introduction
 {
-    float: left;
     padding: 15px;
-    width: 60%;
 }
 
-.selfie
+.selfie, .flag
 {
-    max-width: 200px;
-    align-items: right;
-    padding: 15px;
+    margin: 15px;
+    max-height: 200px;
 }
 
 /*state section*/
-.introduce-state
+h3
 {
-    height: 50%;
+    text-align: center;
+    text-decoration: underline;
 }
 
 /*resources card*/
