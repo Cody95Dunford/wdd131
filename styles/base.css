@@ -45,9 +45,8 @@ li
 
 li a
 {
-    display: block;
+    display: flex;
     color: var(--secondary-color);
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 2rem;
@@ -74,7 +73,6 @@ main
     border-radius: 12px;
     /*card design*/
     margin: 5rem 2rem;
-    height: auto;
     /*font design*/
     font-size: 24px;
 }
@@ -89,6 +87,12 @@ h2
 }
 
 /*introduction card*/
+/*myself section*/
+.introduce-me
+{
+    height: 50%;
+}
+
 .introduction
 {
     float: left;
@@ -99,9 +103,14 @@ h2
 .selfie
 {
     max-width: 200px;
-    float: right;
+    align-items: right;
     padding: 15px;
+}
 
+/*state section*/
+.introduce-state
+{
+    height: 50%;
 }
 
 /*resources card*/
