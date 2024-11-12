@@ -3,11 +3,8 @@
 {
     /*this is the color scheme*/
     --primary-color: #18206F;
-    --secondary-color:  #FDFFFC;
+    --secondary-color:  #FFFFFF;
     --third-color: #C41E3A;
-
-    
-    --header-typography: "Merriweather", serif, 300, normal;
 }
 
 /*website outline*/
@@ -95,7 +92,7 @@ main
 h2
 {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
     margin: 0 auto;
     padding: 1rem;
     text-align: center;
