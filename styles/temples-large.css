@@ -1,0 +1,35 @@
+@media (min-width: 640px) {
+    #menu
+    {
+        display: none;
+    }
+
+    main
+    {
+        margin: auto;
+        max-width: 75%;
+    }
+
+    nav{
+        display: block;
+    }
+
+    ul
+    {
+        max-width: 1000px;
+        display: flex;
+    }
+
+    li
+    {
+        width: 20%;
+    }
+}
+
+@media (min-width: 2233px)
+{
+    section
+    {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
