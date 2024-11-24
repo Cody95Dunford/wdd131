@@ -1,0 +1,33 @@
+@media (min-width: 640px)
+{
+    main
+    {
+        position: relative;
+    }
+
+    .data, .weather
+    {
+        position: absolute;
+        background: var(--third-color);
+        opacity: .75;
+        width: 30%;
+        box-shadow: 5px 5px 5px lightgray;
+    }
+
+    .data
+    {
+        top: 25px;
+        left: 25px;
+    }
+
+    .weather
+    {
+        bottom: 25px;
+        right: 25px;
+    }
+
+    .line-break
+    {
+        display: none;
+    }
+}

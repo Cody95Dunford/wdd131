@@ -1,0 +1,89 @@
+:root
+{
+    /*Color topology*/
+    --primary-color: #3a0ca3;
+    --secondary-color: #f9bec7;
+    --third-color: #fff;
+}
+
+/*typography scheme*/
+h1, h2
+{
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p, td
+{
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+th
+{
+    font-family: "Comic Neue", cursive;
+}
+
+body
+{
+    margin: 0;
+
+}
+
+/*header*/
+header
+{
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 10px;
+}
+
+h1
+{
+    color: var(--primary-color);
+}
+
+/*main*/
+main{
+    text-align: center;
+}
+
+img
+{
+    width: 100%;
+}
+
+.data, .weather
+{
+    padding: 5px;
+}
+
+/*table settings*/
+table
+{
+    width: 100%;
+}
+
+th
+{
+    text-align: right;
+}
+
+td
+{
+    text-align: left;
+}
+
+/*footer*/
+footer{
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 5px;
+}
+
+.update
+{
+    color: var(--primary-color)
+}

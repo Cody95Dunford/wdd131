@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page gives data of where I live">
+    <meta name="author" content="Cody Dunford">
+    <title>My Country</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body onload="latestUpdate()">
+    <header>
+        <h1>France</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/paris-large.webp" media="(min-width: 640px)">
+            <img src="images/paris-small.jpg" alt="louvre in Paris">
+        </picture>
+        <section class="data">
+            <h2>Data</h2>
+            <table>
+                <tr>
+                    <th>Area:</th>
+                    <td>643,800 sq km</td>
+                </tr>
+                <tr>
+                    <th>Population:</th>
+                    <td>68,170,000</td>
+                </tr>
+                <tr>
+                    <th>Capital:</th>
+                    <td>Paris</td>
+                </tr>
+                <tr>
+                    <th>Language:</th>
+                    <td>French</td>
+                </tr>
+                <tr>
+                    <th>Currency:</th>
+                    <td>Euro</td>
+                </tr>
+                <tr>
+                    <th>Time Zone:</th>
+                    <td>GMT+1</td>
+                </tr>
+                <tr>
+                    <th>Calling Code:</th>
+                    <td>+33</td>
+                </tr>
+                <tr>
+                    <th>Internet TLD:</th>
+                    <td>.fr</td>
+                </tr>
+            </table>
+        </section>
+        <hr class="line-break">
+        <section class="weather">
+            <h2>Weather</h2>
+            <table>
+                <tr>
+                    <th>Temperature:</th>
+                    <td id="temp"></td>
+                </tr>
+                <tr>
+                    <th>Condition:</th>
+                    <td>Partly Cloudy</td>
+                </tr>
+                <tr>
+                    <th>Wind:</th>
+                    <td id="wind_speed"></td>
+                </tr>
+                <tr>
+                    <th>Wind Chill:</th>
+                    <td id="wind_chill"></td>
+                </tr>   
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 ~ Cody Dunford ~ Alabama</p>
+        <p id="update"></p>
+    </footer>
+</body>
+</html>
