@@ -1,0 +1,126 @@
+:root
+{
+    /*this is the color scheme*/
+    --primary-color: #18206F;
+    --secondary-color:  #FFFFFF;
+    --third-color: #C41E3A;
+}
+
+/*website outline*/
+body 
+{
+    margin: 0;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+
+/*this is the typogoly scheme*/
+h1, h2
+{
+    font-weight: 400; 
+}
+
+p, figcaption
+{
+    font-weight: 300;
+}
+
+/*header*/
+header 
+{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/*navigation bar*/
+nav{
+    display: none;
+}
+
+ul
+{
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--third-color);  
+}
+
+li a
+{
+    display: block;
+    color: var(--secondary-color);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+li a:hover
+{
+    text-decoration: underline;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: white;
+ 	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✕";
+}
+.open {
+	display: block;
+}
+
+/*header*/
+section
+{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+    grid-gap: 25px;
+    place-items: center;
+}
+
+img
+{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    padding: 35px;
+    box-shadow: 5px 5px 5px #333;
+}
+
+figure
+{
+    border: 1px solid #ccc;
+    background-color: #ccc;
+}
+
+/*main*/
+main
+{
+    margin: 1rem;
+    text-align: center;
+}
+
+/*footer*/
+footer 
+{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2rem;
+    text-align: center;
+}
