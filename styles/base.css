@@ -2,9 +2,8 @@
 :root
 {
     /*this is the color scheme*/
-    --primary-color: #18206F;
+    --primary-color: #012597;
     --secondary-color:  #FFFFFF;
-    --third-color: #C41E3A;
 }
 
 /*website outline*/
@@ -46,7 +45,7 @@ ul
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: var(--third-color);  
+    background-color: var(--secondary-color);  
 }
 
 li
@@ -58,7 +57,7 @@ li
 li a
 {
     display: flex;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 2rem;
@@ -66,7 +65,7 @@ li a
 
 li a:hover
 {
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 /*main*/
@@ -81,7 +80,7 @@ main
     background: var(--secondary-color);
     /*border design*/
     border: 5px solid;
-    border-color: var(--third-color);
+    border-color: var(--primary-color);
     border-radius: 12px;
     /*card design*/
     margin: 5rem 2rem;
