@@ -28,8 +28,9 @@
 
 @media (min-width: 2233px)
 {
-    section
+    .res-grid
     {
         grid-template-columns: 1fr 1fr 1fr;
+
     }
 }

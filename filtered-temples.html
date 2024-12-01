@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="9 pictures of temples">
+    <meta name="author" content="Cody Dunford">
+    <title>Temple Images</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/filtered-temples.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body onload="latestUpdate()">
+    <header>
+        <h1>LDS Temples</h1>
+        <button id="menu"></button>
+        <nav class="navigation">
+            <ul >
+                <li><a id="home">Home</a></li>
+                <li><a id="old">Old</a></li>
+                <li><a id="new">New</a></li>
+                <li><a id="large">Large</a></li>
+                <li><a id="small">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <section class="res-grid">
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 ~ Cody Dunford ~ Alabama</p>
+        <p id="update"></p>
+    </footer>
+</body>
+</html>

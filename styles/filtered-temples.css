@@ -3,7 +3,6 @@
     /*this is the color scheme*/
     --primary-color: #18206F;
     --secondary-color:  #FFFFFF;
-    --third-color: #C41E3A;
 }
 
 /*website outline*/
@@ -47,13 +46,13 @@ ul
     margin: 0 auto;
     padding: 0;
     overflow: hidden;
-    background-color: var(--third-color);  
+    background-color: var(--secondary-color);  
 }
 
 li a
 {
     display: block;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 2rem;
@@ -99,11 +98,11 @@ img
     width: 400px;
     height: 300px;
     object-fit: cover;
-    padding: 35px;
+    margin: 35px;
     box-shadow: 5px 5px 5px #333;
 }
 
-figure
+.card
 {
     border: 1px solid #ccc;
     background-color: #ccc;
@@ -119,6 +118,7 @@ main
 /*footer*/
 footer 
 {
+    margin-top: 2rem;
     background: var(--primary-color);
     color: var(--secondary-color);
     padding: 2rem;
