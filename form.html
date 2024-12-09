@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page is a form to post a review for a product">
+    <meta name="author" content="Cody Dunford">
+    <title>Product Review</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body onload="latestUpdate()">
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+            <form method="get" action="review.html" class="wf1">
+                <fieldset>
+                    <label>Product Name*
+                        <select name="subject" required>
+                            <option value="">Please Select &#9662;</option>
+                            <option value="software">Software Development</option>
+                            <option value="creative">Creative Professional</option>
+                            <option value="info">Information Technology</option>
+                            <option value="data">Data Professional</option>
+                            <option value="construction">Construction</option>
+                            <option value="manufacturing">Manufacturing</option>
+                            <option value="business">Business Management</option>
+                            <option value="security">Cyber Security</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                <label>Date of Installation <input type="date" name="completeDate" required></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Overall rating</legend>
+                    <label><input type="radio" name="audience" value="one"> &star;</label>
+                    <label><input type="radio" name="audience" value="two"> &star; &star;</label>
+                    <label><input type="radio" name="audience" value="three"> &star; &star; &star;</label>
+                    <label><input type="radio" name="audience" value="three"> &star; &star; &star; &star;</label>
+                    <label><input type="radio" name="audience" value="three"> &star; &star; &star; &star; &star;</label>
+                </fieldset>
+                <fieldset>
+                    <div>Which features did you find useful in the product?<br>(check all that apply)</div>
+                        <label><input type="checkbox" name="durability" value="yes"> Durability</label>
+                        <label><input type="checkbox" name="usability" value="yes"> Easy to use</label>
+                        <label><input type="checkbox" name="performance" value="yes"> Performance</label>
+                        <label><input type="checkbox" name="design" value="yes"> Design</label> 
+                </fieldset>
+                <fieldset>
+                    <label>Written Review (optional) <input type="text" name="review" class="review"></label>
+                </fieldset>
+                <fieldset>
+                    <label>Your Name (optional) <input type="text" name="review"></label>
+                </fieldset>
+                <input type="submit" value="Post Review">
+            </form>
+    </main>
+    <footer>
+        <p>&copy;2024 ~ Cody Dunford ~ Alabama</p>
+        <p id="update"></p>
+    </footer>
+</body>
+</html>
