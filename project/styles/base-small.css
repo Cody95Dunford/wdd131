@@ -1,0 +1,18 @@
+@media screen and (max-width: 1600px) {
+    main {
+        margin: 0 auto;
+    }
+    .container {
+        display: block;
+        margin: auto;
+    }
+    .home-pics {
+        width: 800px;
+
+    }
+    .discover,
+    .memories {
+        width: 800px;
+        padding: 15px;
+    }
+}

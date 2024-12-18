@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!-- website title -->
+    <title>WDD 131 - Dynamic Web Fundamentals - Cody Dunford</title>
+    <!-- meta characters -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="This is a website that reviews travel sites and helps people plan vacations.">
+    <meta name="author" content="Cody Dunford">
+    <!-- style sheet -->
+    <link rel="stylesheet" href="styles/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <!-- javascript -->
+    <script src="scripts/getfooter.js" defer></script>
+</head>
+<body onload="latestUpdate()">
+    <header>
+        <div class="title-outline">
+            <img src="images/logo.jpg" alt="compass logo" class="logo">
+            <div class="title-text">
+                <h1>Compass</h1>
+                <h2>Your Direction to your Destination</h2>
+            </div>
+        </div>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="About Us">About Us</a>
+            <div class="dropdown">
+              <button class="dropbtn">Dropdown 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="brazil.html"> Rio De Janeiro, Brazil</a>
+                <a href="#">Venice, Italy</a>
+                <a href="#">Japan</a>
+              </div>
+            </div> 
+            <a href="form.html">Create Account</a>
+        </div>
+    </header>
+    <main>
+        <h2>Thank you for setting up an account with us!</h2>
+    </main>
+    <footer>
+        <p>&copy;2024 ~ Cody Dunford ~ Alabama</p>
+        <p id="update"></p>
+    </footer>
+</body>
+</html>

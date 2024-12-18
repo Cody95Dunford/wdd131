@@ -1,0 +1,57 @@
+main {
+    max-width: 64rem;
+    margin: auto;
+}
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.account fieldset {
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+.account legend {
+    color: #012579;
+    padding: 0 .5rem;
+    font-size: 2rem;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.account label {
+    display: block;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+.account input[type="text"],
+.account input[type="email"] {
+    background-color: #eee;
+    display: block;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+}
+.account input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#e01e37, #641220);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: .5rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+    appearance: none;
+}
+.wf1 input:required {
+    border-left: 8px solid #e01e37;
+}
+.wf1 input:required:valid {
+    border-left: 8px solid #52b788;
+}
